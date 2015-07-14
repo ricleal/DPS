@@ -7,6 +7,7 @@
 
 
 #include "cctbx/uctbx.h"
+#include "rstbx/dps_core/dps_core.h"
 
 int main()
 {
