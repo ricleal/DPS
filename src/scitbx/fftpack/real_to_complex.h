@@ -1,12 +1,12 @@
 #ifndef SCITBX_FFTPACK_REAL_TO_COMPLEX_H
 #define SCITBX_FFTPACK_REAL_TO_COMPLEX_H
 
-#include <scitbx/fftpack/factorization.h>
-#include <scitbx/fftpack/detail/ref.h>
-#include <scitbx/array_family/shared.h>
-#include <boost/scoped_array.hpp>
-#include <complex>
-#include <cmath>
+#include "scitbx/fftpack/factorization.h"
+#include "scitbx/fftpack/detail/ref.h"
+#include "scitbx/array_family/shared.h"
+#include "boost/scoped_array.hpp"
+#include "complex"
+#include "cmath"
 
 namespace scitbx { namespace fftpack {
 
@@ -336,7 +336,7 @@ namespace scitbx { namespace fftpack {
 
 }} // namespace scitbx::fftpack
 
-#include <scitbx/fftpack/detail/real_to_complex_forward.h>
-#include <scitbx/fftpack/detail/real_to_complex_backward.h>
+#include "scitbx/fftpack/detail/real_to_complex_forward.h"
+#include "scitbx/fftpack/detail/real_to_complex_backward.h"
 
 #endif // SCITBX_FFTPACK_REAL_TO_COMPLEX_H

@@ -1,15 +1,15 @@
 #ifndef RSTBX_DIRECTIONAL_FFT_H
 #define RSTBX_DIRECTIONAL_FFT_H
 
-#include <algorithm>
-#include <scitbx/fftpack/real_to_complex.h>
-#include <scitbx/array_family/flex_types.h>
-#include <scitbx/array_family/shared.h>
-#include <scitbx/array_family/versa.h>
-#include <scitbx/array_family/accessors/flex_grid.h>
-#include <scitbx/array_family/accessors/c_grid.h>
+#include "algorithm"
+#include "scitbx/fftpack/real_to_complex.h"
+#include "scitbx/array_family/flex_types.h"
+#include "scitbx/array_family/shared.h"
+#include "scitbx/array_family/versa.h"
+#include "scitbx/array_family/accessors/flex_grid.h"
+#include "scitbx/array_family/accessors/c_grid.h"
 
-#include <rstbx/dps_core/direction.h>
+#include "rstbx/dps_core/direction.h"
 
 namespace af = scitbx::af;
 namespace rstbx {

@@ -1,10 +1,10 @@
 #ifndef SCITBX_MAT3_H
 #define SCITBX_MAT3_H
 
-#include <utility>
-#include <scitbx/error.h>
-#include <scitbx/vec3.h>
-#include <scitbx/array_family/tiny_reductions.h>
+#include "utility"
+#include "scitbx/error.h"
+#include "scitbx/vec3.h"
+#include "scitbx/array_family/tiny_reductions.h"
 
 namespace scitbx {
 

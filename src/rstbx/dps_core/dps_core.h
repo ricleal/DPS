@@ -1,15 +1,15 @@
 #ifndef RSTBX_DPS_CORE_H
 #define RSTBX_DPS_CORE_H
 
-#include <boost/shared_ptr.hpp>
+#include "boost/shared_ptr.hpp"
 
-#include <scitbx/array_family/flex_types.h>
-#include <scitbx/vec3.h>
-#include <scitbx/array_family/shared.h>
-#include <cctbx/crystal_orientation.h>
+#include "scitbx/array_family/flex_types.h"
+#include "scitbx/vec3.h"
+#include "scitbx/array_family/shared.h"
+#include "cctbx/crystal_orientation.h"
 
-#include <rstbx/dps_core/directional_fft.h>
-#include <rstbx/dps_core/spotclass.h>
+#include "rstbx/dps_core/directional_fft.h"
+#include "rstbx/dps_core/spotclass.h"
 
 namespace af = scitbx::af;
 namespace rstbx {

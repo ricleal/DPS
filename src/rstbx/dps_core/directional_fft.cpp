@@ -1,6 +1,6 @@
-#include <scitbx/fftpack/real_to_complex.h>
+#include "scitbx/fftpack/real_to_complex.h"
 
-#include <rstbx/dps_core/directional_fft.h>
+#include "rstbx/dps_core/directional_fft.h"
 
 rstbx::Directional_FFT::Directional_FFT (
   const Direction& angle, const veclist_t& xyzdata,

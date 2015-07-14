@@ -1,6 +1,8 @@
-#include <algorithm>
+#include "algorithm"
 
-#include <rstbx/dps_core/dps_core.h>
+#include "rstbx/dps_core/dps_core.h"
+#include "cctbx/crystal_orientation.h"
+
 
 namespace af = scitbx::af;
 namespace pd = rstbx;

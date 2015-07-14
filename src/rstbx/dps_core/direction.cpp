@@ -1,6 +1,7 @@
-#include <scitbx/constants.h>
-#include <rstbx/dps_core/direction.h>
-#include <rstbx/dps_core/directional_fft.h>
+
+#include "rstbx/dps_core/direction.h"
+#include "rstbx/dps_core/directional_fft.h"
+#include "scitbx/constants.h"
 
 namespace pd = rstbx;
 namespace constants = scitbx::constants;

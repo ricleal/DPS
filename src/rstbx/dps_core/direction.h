@@ -1,10 +1,10 @@
 #ifndef RSTBX_DIRECTION_H
 #define RSTBX_DIRECTION_H
 
-#include <boost/shared_ptr.hpp>
-#include <scitbx/vec3.h>
-#include <scitbx/mat3.h>
-#include <scitbx/array_family/shared.h>
+#include "boost/shared_ptr.hpp"
+#include "scitbx/vec3.h"
+#include "scitbx/mat3.h"
+#include "scitbx/array_family/shared.h"
 
 namespace af = scitbx::af;
 namespace rstbx {
