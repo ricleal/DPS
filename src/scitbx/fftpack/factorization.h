@@ -60,7 +60,7 @@ namespace scitbx { namespace fftpack {
     af::int3 count;
     count.fill(0);
     int red_n = n_;
-    int i;
+    unsigned int i;
     for (i = 0; red_n > 1 && i < opt_factors.size(); i++) {
       count[i] = detail::count_reduce(red_n, opt_factors[i]);
     }

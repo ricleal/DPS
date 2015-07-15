@@ -18,8 +18,9 @@ typedef boost::shared_ptr<Directional_FFT>   fftptr;
 struct Direction {
   typedef scitbx::vec3<double>                 point;
   typedef std::size_t                          sztype;
-  double psi,phi;
   point dvec;
+  double psi;
+  double phi;
   sztype kmax;
   double kval;
   double kval0;

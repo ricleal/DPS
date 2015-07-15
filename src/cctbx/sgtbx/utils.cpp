@@ -8,7 +8,7 @@ namespace cctbx { namespace sgtbx { namespace utils {
     const int *old_num, int old_den,
           int *new_num, int new_den, int n)
   {
-    for(std::size_t i=0;i<n;i++) {
+    for(std::size_t i=0; i < static_cast<std::size_t>(n); i++) {
           new_num[i] = old_num[i] * new_den;
       if (new_num[i] %  old_den) return -1;
           new_num[i] /= old_den;
